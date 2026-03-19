@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicole Meleshko</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container container-lg">
+      <div class="header-nav">
+        <a href="#home" class="logo" data-aos="fade-down" data-aos-duration="1000">N.Meleshko</a>
+        <nav id="nav" class="nav">
+          <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <button id="nav-btn" class="nav-btn">
+            <img id="nav-btn-img" src="img/icons/open.svg" alt="Navigation button" />
+          </button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container container-lg">
+      <div class="hero-row" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="500"
+        data-aos-duration="1000">
+        <div class="hero-content">
+          <span class="hero-greeting"> Hello, I am</span>
+          <h1 class="hero-heading">Nicole Meleshko</h1>
+          <span class="hero-heading-subtitle">QA Manual & Automation Engineer</span>
+          <div class="about-social-list">
+            <div class="social-links-row">
+              <a href="https://github.com/nicolemeleshko-stack">
+                <img src="img/social_icons/github.svg" alt="Link to GitHub profile" />
+              </a>
+
+              <a href="https://www.linkedin.com/in/nicole-meleshko-7a2795324">
+                <img src="img/social_icons/linkedin.svg" alt="Link to Linkedin profile" />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <a href="#projects" class="btn">My Portfolio</a>
+            <a href="#contact" class="btn btn-white">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="img/hero/hero.png" alt="Hero image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-title">
+        <h2 class="title">About Me</h2>
+      </div>
+      <div class="about-row">
+        <div class="about-content" data-aos="fade-up" data-aos-duration="1000">
+          <p class="about-descr">
+            Hi, I'm Nicole, a Quality Assurance Engineer passionate about software testing and product quality. I
+            specialize in Manual and Automation testing of web applications, focusing on identifying bugs, improving
+            functionality, and ensuring a smooth user experience.
+
+            I have experience working with tools like Jira, TestRail, Postman, and SQL, and I enjoy analyzing systems
+            and solving complex problems.
+
+            I'm constantly learning and developing my skills to become a stronger QA professional.
+          </p>
+          <div class="about-download-btn">
+            <a href="documents/Nicole Meleshko - CV.pdf" class="btn btn-white" download>Download CV</a>
+          </div>
+        </div>
+        <div class="about-right">
+
+          <div class="profile-img">
+            <img src="img/profile/profile.png" alt="Nicole">
+          </div>
+          <div class="about-skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <div class="skill">
+              <div class="skill-title">SQL</div>
+              <div class="skill-percent">80%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="80"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">HTML/CSS</div>
+              <div class="skill-percent">85%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="85"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Bug Tracking (Jira, TestRail)</div>
+              <div class="skill-percent">90%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="90"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-title">Test Documentation (STP, STD, STR)</div>
+              <div class="skill-percent">90%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MOVE services-row HERE - Outside the about-row div -->
+      <div class="services-row">
+        <div class="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+          <img class="service-card-img" src="img/services/01.svg" alt="" />
+          <h3 class="service-card-title">Functional Testing</h3>
+          <p>
+            Testing application features to ensure they behave according to requirements and provide a smooth user
+            experience.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <img class="service-card-img" src="img/services/02.svg" alt="" />
+          <h3 class="service-card-title">API Testing</h3>
+          <p>
+            Validating API endpoints and responses using Postman to ensure reliable communication between services.
+          </p>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <img class="service-card-img" src="img/services/03.svg" alt="" />
+          <h3 class="service-card-title">Test Documentation</h3>
+          <p>
+            Creating and maintaining testing documentation such as STP, STD, STR, and detailed test cases.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container container-lg">
+      <div class="projects-title">
+        <h2 class="title">Projects</h2>
+      </div>
+
+      <div class="projects-row">
+        <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-duration="1000">
+          <a href="pdf/STR Project - Nicole Meleshko.pdf">
+            <img class="project-img" src="img/works/01.png" alt="Israel Post Website Testing" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h5 class="white">STR Project – Israel Post Website Testing</h5>
+                <p class="white">Performed comprehensive testing of the Israel Post website, including functional
+                  testing, UI validation, and localization checks. Executed test cases, documented results in STR, and
+                  reported defects using Jira, ensuring the quality and reliability of key website features.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project-box" data-aos="fade-zoom-in" data-aos-easing="ease-in-out" data-aos-delay="300"
+          data-aos-duration="1000">
+          <a href="#!">
+            <img class="project-img" src="img/works/02.png" alt="Mobile Project" />
+            <div class="project-mask">
+              <div class="project-caption">
+                <h5 class="white">STR Project - Yad 2 Mobile Testing</h5>
+                <p class="white">about</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-title">
+        <h2 class="title">Contact</h2>
+      </div>
+      <div class="contact-content">
+        <p>
+          Let's connect!
+          <br />
+          I'm open to QA opportunities and collaborations.
+        </p>
+      </div>
+
+      <div class="contact-links" data-aos="zoom-in" data-aos-duration="1000">
+        <a href="mailto:nicolemeleshko@gmail.com" class="contact-link">
+          Email
+        </a>
+        <a href="https://www.linkedin.com/in/nicole-meleshko-7a2795324" target="_blank" class="contact-link">
+          LinkedIn
+        </a>
+        <a href="https://github.com/nicolemeleshko-stack" target="_blank" class="contact-link">
+          GitHub
+        </a>
+      </div>
+
+      <div class="response"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+
+
+        <div class="footer-copyright">
+          <p>&copy; Copyright Nicole Meleshko 2026</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="goToTop" class="goToTop">
+    <a href="#home">
+      <img src="img/icons/arrow_up.svg" alt="Back to top" /></a>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+    integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
